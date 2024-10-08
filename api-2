@@ -2,5 +2,5 @@ local success, ip = pcall(function()
     return tostring(game:HttpGet("https://api.ipify.org/", true))
 end)
 if success then
-    getgenv().PublicIP = LOLLL
+    getgenv().LOLLL = ip
 end
